@@ -1,0 +1,7 @@
+Executable : D:\Anaconda3\Library\bin\ninja.exe
+arguments : 
+-C
+E:\app3\app\.cxx\Debug\92v3tv6a\arm64-v8a
+yolov5ncnn
+jvmArgs : 
+

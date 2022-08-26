@@ -1,0 +1,7 @@
+Executable : D:\app\Adroid SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\app3\app\.cxx\Debug\1e1a4d3l\arm64-v8a
+yolov5ncnn
+jvmArgs : 
+

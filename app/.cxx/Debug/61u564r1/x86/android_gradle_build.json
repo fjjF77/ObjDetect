@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "E:\\app3\\app\\src\\main\\jni\\CMakeLists.txt",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\glslangTargets-release.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\glslangTargets.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\OSDependentTargets.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "E:\\app3\\app\\src\\main\\jni\\x86\\lib\\cmake\\SPIRVTargets.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\app\\Adroid SDK\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\app3\\app\\.cxx\\Debug\\61u564r1\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\app\\Adroid SDK\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\app3\\app\\.cxx\\Debug\\61u564r1\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolov5ncnn::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "yolov5ncnn",
+      "output": "E:\\app3\\app\\build\\intermediates\\cxx\\Debug\\61u564r1\\obj\\x86\\libyolov5ncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "D:\\app\\Adroid SDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\app\\Adroid SDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

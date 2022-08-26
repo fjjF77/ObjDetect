@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/ncnn-android-yolov5/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\yzhhhhh\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/yzhhhhh/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/yzhhhhh/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolov5ncnn_EXPORTS -isystem D:/ncnn-android-yolov5/app/src/main/jni/armeabi-v7a/include/ncnn  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -o CMakeFiles\\yolov5ncnn.dir\\yolov5ncnn_jni.cpp.o -c D:\\ncnn-android-yolov5\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp",
+  "file": "D:\\ncnn-android-yolov5\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp"
+}
+]

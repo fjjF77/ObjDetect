@@ -1,0 +1,3 @@
+D:/app3/app/.cxx/Debug/651c3i3y/arm64-v8a/CMakeFiles/yolov5ncnn.dir
+D:/app3/app/.cxx/Debug/651c3i3y/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/app3/app/.cxx/Debug/651c3i3y/arm64-v8a/CMakeFiles/rebuild_cache.dir

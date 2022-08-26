@@ -1,0 +1,488 @@
+The target system is: Android - 1 - aarch64
+The host system is: Windows - 10.0.19041 - AMD64
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_8ca70 && [1/2] Building C object CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ (in-process)
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_8ca70.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o -x c "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c"
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_8ca70
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8ca70 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_8ca70 && [1/2] Building C object CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_8ca70.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o -x c "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c"]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_8ca70]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  link line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8ca70 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld] ==> ignore
+    arg [--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8ca70] ==> ignore
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o] ==> ignore
+    arg [-LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_8ca70.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o] ==> ignore
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_ff184 && [1/2] Building CXX object CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ (in-process)
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_ff184.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdeprecated-macro -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -x c++ "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_ff184
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_ff184 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_ff184 && [1/2] Building CXX object CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_ff184.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdeprecated-macro -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -x c++ "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_ff184]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  link line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_ff184 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld] ==> ignore
+    arg [--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ff184] ==> ignore
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o] ==> ignore
+    arg [-LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_ff184.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o] ==> ignore
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_847a8 && [1/2] Building C object CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ (in-process)
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_847a8.dir\\OpenMPTryFlag.c.o.d" -MT CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -Werror=format-security -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -x c E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_847a8
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_847a8 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -latomic -lm -lomp D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_847a8 && [1/2] Building C object CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_847a8.dir\\OpenMPTryFlag.c.o.d" -MT CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -Werror=format-security -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -x c E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_847a8]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  link line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_847a8 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o -latomic -lm -lomp D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld] ==> ignore
+    arg [--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_847a8] ==> ignore
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o] ==> ignore
+    arg [-LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_847a8.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-latomic] ==> lib [atomic]
+    arg [-lm] ==> lib [m]
+    arg [-lomp] ==> lib [omp]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o] ==> ignore
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [atomic;m;omp;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_88fc0 && [1/2] Building CXX object CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ (in-process)
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_88fc0.dir\\OpenMPTryFlag.cpp.o.d" -MT CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -x c++ E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_88fc0
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0, version 11.0
+ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_88fc0 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_88fc0 && [1/2] Building CXX object CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android24 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_88fc0.dir\\OpenMPTryFlag.cpp.o.d" -MT CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include -internal-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir=E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -x c++ E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_88fc0]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0  version 11.0]
+  link line: [ "D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld" "--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_88fc0 "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o" -LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64 "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android" "-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl "D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o"]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/bin/ld] ==> ignore
+    arg [--sysroot=D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_88fc0] ==> ignore
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtbegin_dynamic.o] ==> ignore
+    arg [-LD:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LD:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_88fc0.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-latomic] ==> lib [atomic]
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lomp] ==> lib [omp]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/crtend_android.o] ==> ignore
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [D:/app/ADROID~1/ndk/250~1.877/TOOLCH~1/llvm/prebuilt/WINDOW~1/lib64/clang/14.0.6/lib/linux/aarch64] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [atomic;m;c++;m;omp;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit dirs: [D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: E:/app3/app/.cxx/Debug/2n102601/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/app/Adroid SDK/cmake/3.18.1/bin/ninja.exe cmTC_0c411 && [1/2] Building C object CMakeFiles/cmTC_0c411.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0c411
+
+
+

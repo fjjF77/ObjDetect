@@ -1,0 +1,7 @@
+Executable : C:\Users\yzhhhhh\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
+arguments : 
+-C
+D:\app3\app\.cxx\Debug\651c3i3y\armeabi-v7a
+learning1
+jvmArgs : 
+

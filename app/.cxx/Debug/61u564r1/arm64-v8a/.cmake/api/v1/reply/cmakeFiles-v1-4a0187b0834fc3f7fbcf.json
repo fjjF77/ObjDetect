@@ -1,0 +1,272 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/app3/app/.cxx/Debug/61u564r1/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/ndk/21.3.6528147/build/cmake/platforms.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/app3/app/.cxx/Debug/61u564r1/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/app3/app/.cxx/Debug/61u564r1/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindOpenMP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/app/Adroid SDK/cmake/3.18.1/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/OSDependentTargets.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/OSDependentTargets-release.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/OGLCompilerTargets.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/OGLCompilerTargets-release.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/glslangTargets.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/glslangTargets-release.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/SPIRVTargets.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/SPIRVTargets-release.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/ncnn/ncnn.cmake"
+		},
+		{
+			"path" : "arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/app3/app/.cxx/Debug/61u564r1/arm64-v8a",
+		"source" : "E:/app3/app/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

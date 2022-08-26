@@ -1,0 +1,5 @@
+# ninja log v5
+1	633	682583239	CMakeFiles/yolov5ncnn.dir/yolov5ncnn_jni.cpp.o	b50944bb9d78e803
+634	855	682583240	E:/app3/app/build/intermediates/cxx/Debug/5i2l18x3/obj/arm64-v8a/libyolov5ncnn.so	f07730c107454e36
+4	823	682604460	CMakeFiles/yolov5ncnn.dir/yolov5ncnn_jni.cpp.o	b50944bb9d78e803
+823	1136	682604460	E:/app3/app/build/intermediates/cxx/Debug/5i2l18x3/obj/arm64-v8a/libyolov5ncnn.so	f07730c107454e36

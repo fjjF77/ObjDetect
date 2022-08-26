@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\app3\app\.cxx\Debug\651c3i3y\armeabi-v7a'
+ninja: no work to do.

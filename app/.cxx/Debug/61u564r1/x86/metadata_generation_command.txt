@@ -1,0 +1,23 @@
+                    Executable : D:\app\Adroid SDK\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HE:\app3\app\src\main\jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=D:\app\Adroid SDK\ndk\21.3.6528147
+-DCMAKE_ANDROID_NDK=D:\app\Adroid SDK\ndk\21.3.6528147
+-DCMAKE_TOOLCHAIN_FILE=D:\app\Adroid SDK\ndk\21.3.6528147\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\app\Adroid SDK\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\app3\app\build\intermediates\cxx\Debug\61u564r1\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\app3\app\build\intermediates\cxx\Debug\61u564r1\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BE:\app3\app\.cxx\Debug\61u564r1\x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

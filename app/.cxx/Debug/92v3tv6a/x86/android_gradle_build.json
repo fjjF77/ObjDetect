@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\app3\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Anaconda3\\Library\\bin\\ninja.exe",
+      "-C",
+      "E:\\app3\\app\\.cxx\\Debug\\92v3tv6a\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Anaconda3\\Library\\bin\\ninja.exe",
+    "-C",
+    "E:\\app3\\app\\.cxx\\Debug\\92v3tv6a\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolov5ncnn-Debug-x86": {
+      "buildCommandComponents": [
+        "D:\\Anaconda3\\Library\\bin\\ninja.exe",
+        "-C",
+        "E:\\app3\\app\\.cxx\\Debug\\92v3tv6a\\x86",
+        "yolov5ncnn"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "yolov5ncnn",
+      "output": "E:\\app3\\app\\build\\intermediates\\cxx\\Debug\\92v3tv6a\\obj\\x86\\libyolov5ncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background2"
+    android:title="设置" >
+
+    <ListPreference
+        android:defaultValue="all"
+        android:entries="@array/obj_kinds"
+        android:entryValues="@array/obj_kinds_value"
+        android:icon="@mipmap/ic_launcher"
+        android:key="OBJ_LIST"
+        android:title="检测目标"
+        android:summary="选择检测业务" />
+
+    <ListPreference
+        android:defaultValue="yolov5"
+        android:entries="@array/model_kinds"
+        android:entryValues="@array/model_kinds"
+        android:icon="@mipmap/ic_launcher"
+        android:key="MODEL_LIST"
+        android:title="模型"
+        android:summary="选择目标检测的模型" />
+
+    <ListPreference
+        android:defaultValue="false"
+        android:entries="@array/devices"
+        android:entryValues="@array/devices"
+        android:icon="@mipmap/ic_launcher"
+        android:key="DEVICE_LIST"
+        android:title="设备"
+        android:summary="选择目标检测所用设备(cpu/gpu)" />
+
+</PreferenceScreen>

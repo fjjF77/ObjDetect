@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="obj_kinds">
+        <item>所有目标</item>
+        <item>口罩</item>
+    </string-array>
+    <string-array name="obj_kinds_value">
+        <item>all</item>
+        <item>mask</item>
+    </string-array>
+
+    <string-array name="model_kinds">
+        <item>yolov5</item>
+        <item>CNN</item>
+    </string-array>
+
+    <string-array name="devices">
+        <item>cpu</item>
+        <item>gpu</item>
+    </string-array>
+
+</resources>

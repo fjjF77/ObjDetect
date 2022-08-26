@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\app3\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\yzhhhhh\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\app3\\app\\.cxx\\RelWithDebInfo\\291k92aj\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\yzhhhhh\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\app3\\app\\.cxx\\RelWithDebInfo\\291k92aj\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolov5ncnn-RelWithDebInfo-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\yzhhhhh\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+        "-C",
+        "D:\\app3\\app\\.cxx\\RelWithDebInfo\\291k92aj\\arm64-v8a",
+        "yolov5ncnn"
+      ],
+      "buildType": "release",
+      "abi": "arm64-v8a",
+      "artifactName": "yolov5ncnn",
+      "output": "D:\\app3\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\291k92aj\\obj\\arm64-v8a\\libyolov5ncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

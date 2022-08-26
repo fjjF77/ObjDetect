@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/app3/app/.cxx/Debug/2n102601/arm64-v8a",
+  "command": "D:\\app\\ADROID~1\\ndk\\250~1.877\\TOOLCH~1\\llvm\\prebuilt\\WINDOW~1\\bin\\CLANG_~1.EXE --target=aarch64-none-linux-android24 --sysroot=\"D:/app/Adroid SDK/ndk/25.0.8775105/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -Dyolov5ncnn_EXPORTS -isystem E:/app3/app/src/main/jni/arm64-v8a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fno-rtti -fno-exceptions -pthread -o CMakeFiles\\yolov5ncnn.dir\\yolov5ncnn_jni.cpp.o -c E:\\app3\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp",
+  "file": "E:\\app3\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp"
+}
+]
